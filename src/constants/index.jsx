@@ -54,7 +54,45 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-      "I am a full stack Developer"
+  "I recently completed my Bachelor of Technology in Information Technology from the College of Engineering Roorkee. I am a passionate full-stack developer with a strong focus on building user-friendly, responsive, and efficient websites. My goal is to create web experiences that are intuitive and easy to navigate, making technology more accessible.",
+
+  "With expertise in technologies like React, Node.js, Express.js, and MongoDB, I enjoy working on both the frontend and backend. I'm also continuously learning new languages and frameworks to enhance my skills and deliver better solutions.",
+  
+ "I am currently seeking opportunities to apply my knowledge, collaborate on exciting projects, and grow as a developer. Let's connect if you're interested in working together or have opportunities available!"
+];
+
+
+export const SKILLS = [
+  {
+    icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "React",
+    experience: "2+ years",
+  },
+  {
+    icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
+    name: "Next.js",
+    experience: "1+ year",
+  },
+  {
+    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "MongoDB",
+    experience: "1.5+ years",
+  },
+  {
+    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
+    name: "Redis",
+    experience: "1+ year",
+  },
+  {
+    icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "Node.js",
+    experience: "2+ years",
+  },
+  {
+    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "PostgreSQL",
+    experience: "1+ year",
+  },
 ];
 
 export const EXPERIENCES = [

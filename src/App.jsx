@@ -1,5 +1,8 @@
 import About from "./components/About";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Bio from "./components/Bio";
+import Skills from "./components/Skills"
 
 const App = () => {
   return (
@@ -8,6 +11,9 @@ const App = () => {
     <div className = "relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto">
       <About/>
       <Navbar/>
+      <Projects/>
+      <Bio />
+      <Skills />
     </div>
   </div>
   );
